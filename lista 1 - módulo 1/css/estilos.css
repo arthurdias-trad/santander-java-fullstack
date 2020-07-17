@@ -1,0 +1,49 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #efefef;
+}
+
+h1,
+h3 {
+  color: #311b92;
+  text-align: center;
+  font-family: "Sora", sans-serif;
+}
+
+h1 {
+  font-style: italic;
+}
+
+h3 {
+  font-weight: 400;
+  text-decoration: underline;
+  margin-top: 0;
+}
+
+#main {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+svg {
+  margin-right: 0.3rem;
+}
+
+p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  width: 28%;
+  border: 2px solid #311b92;
+  border-radius: 2.5%;
+  padding: 1rem;
+}
